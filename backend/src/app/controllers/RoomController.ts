@@ -1,5 +1,5 @@
 import { getRepository } from "typeorm";
-import { Rooms } from '../entity/Rooms';
+import { Rooms } from '../models/Rooms';
 import { Request, Response } from "express";
  
 export const getRooms = async(request: Request, response: Response) => {
